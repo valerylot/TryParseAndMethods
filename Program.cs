@@ -1,4 +1,4 @@
-﻿/*
+﻿
 Console.Write("How many gummy bears? ");
 // int gummyBears = Convert.ToInt32(Console.ReadLine());
 string input = Console.ReadLine();
@@ -53,7 +53,7 @@ Console.WriteLine(int.TryParse("1,000", out int g)); //false
 Console.WriteLine(int.TryParse("007", out int h)); //true
 
 Console.WriteLine(double.TryParse("3.5", out double doub));
-*/
+
 SayHi(); //we can call the methods beforehand too
 
 static void SayHi()
